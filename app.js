@@ -70,7 +70,7 @@ class DrumKit {
         }
     }
 
-    changeSound() {
+    changeSound(e) {
         const selectionName = e.target.name;
         const selectionValue = e.target.value;
         switch (selectionName) {
@@ -121,7 +121,7 @@ class DrumKit {
         tempoText.innerText = e.target.value;
     }
 
-    updateTempo() {
+    updateTempo(e) {
         this.bpm = e.target.value;
         clearInterval(this.isPlaying);
         this.isPlaying = null;
