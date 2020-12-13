@@ -33,6 +33,17 @@ svg {
 .hihat-pad {
   background: rgb(224, 194, 160);
 }
+.kick-pad.active {
+  background: rgb(59, 197, 231);
+}
+
+.snare-pad.active {
+  background: rgb(218, 58, 178);
+}
+
+.hihat-pad.active {
+  background: rgb(241, 158, 64);
+}
 
 .sequencer {
   display: flex;
